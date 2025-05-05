@@ -59,4 +59,4 @@ if __name__ == "__main__":
         texturas = pool.map(procesar_gpu, paths)
     end = time.time()
 
-    print(f"⚡ GPU (paralelizado): {end - start:.2f} s para {len(paths)} imágenes")
+    print(f"GPU (paralelizado): {end - start:.2f} s para {len(paths)} imágenes")
